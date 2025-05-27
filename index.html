@@ -1,3 +1,851 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小田原高校吹奏楽部 クラウドファンディング企画書</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .section-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .section-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        .highlight-number {
+            background: linear-gradient(45deg, #f093fb 0%, #f5576c 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="gradient-bg text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">
+                    <i class="fas fa-music mr-3"></i>
+                    小田原高校吹奏楽部
+                </h1>
+                <h2 class="text-2xl md:text-3xl font-medium mb-6">クラウドファンディング企画書</h2>
+                <p class="text-lg opacity-90 max-w-2xl mx-auto">
+                    音楽を通じて地域に感動を届ける、純粋な応援型プロジェクト
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12">
+        
+        <!-- プロジェクト概要 -->
+        <section class="mb-16">
+            <div class="section-card bg-white rounded-lg shadow-lg p-8">
+                <h2 class="text-3xl font-bold text-gray-800 mb-8 flex items-center">
+                    <i class="fas fa-star text-yellow-500 mr-3"></i>
+                    プロジェクト概要
+                </h2>
+                
+                <!-- 基本情報 -->
+                <div class="mb-8">
+                    <h3 class="text-2xl font-semibold text-gray-700 mb-6">基本情報</h3>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                        <div class="bg-blue-50 p-6 rounded-lg text-center">
+                            <i class="fas fa-yen-sign text-blue-500 text-2xl mb-3"></i>
+                            <div class="text-3xl font-bold highlight-number">200,000円</div>
+                            <div class="text-gray-600 mt-2">目標金額</div>
+                        </div>
+                        <div class="bg-green-50 p-6 rounded-lg text-center">
+                            <i class="fas fa-users text-green-500 text-2xl mb-3"></i>
+                            <div class="text-3xl font-bold highlight-number">60人</div>
+                            <div class="text-gray-600 mt-2">支援者想定</div>
+                        </div>
+                        <div class="bg-purple-50 p-6 rounded-lg text-center">
+                            <i class="fas fa-ban text-purple-500 text-2xl mb-3"></i>
+                            <div class="text-lg font-bold text-purple-700">完全排除</div>
+                            <div class="text-gray-600 mt-2">営利性リターン</div>
+                        </div>
+                        <div class="bg-orange-50 p-6 rounded-lg text-center">
+                            <i class="fas fa-clock text-orange-500 text-2xl mb-3"></i>
+                            <div class="text-3xl font-bold highlight-number">3時間</div>
+                            <div class="text-gray-600 mt-2">演奏時間</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 会場詳細 -->
+                <div>
+                    <h3 class="text-2xl font-semibold text-gray-700 mb-6">会場詳細</h3>
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <div class="flex items-center mb-3">
+                                    <i class="fas fa-map-marker-alt text-red-500 mr-3"></i>
+                                    <span class="font-semibold">会場</span>
+                                </div>
+                                <p class="text-gray-700 mb-4">小田原三の丸ホール大ホール</p>
+                                
+                                <div class="flex items-center mb-3">
+                                    <i class="fas fa-chair text-blue-500 mr-3"></i>
+                                    <span class="font-semibold">定員</span>
+                                </div>
+                                <p class="text-gray-700">1,105名</p>
+                            </div>
+                            <div>
+                                <div class="flex items-center mb-3">
+                                    <i class="fas fa-door-open text-green-500 mr-3"></i>
+                                    <span class="font-semibold">楽屋</span>
+                                </div>
+                                <p class="text-gray-700 mb-4">A~F楽屋を使用</p>
+                                
+                                <div class="flex items-center mb-3">
+                                    <i class="fas fa-location-arrow text-purple-500 mr-3"></i>
+                                    <span class="font-semibold">所在地</span>
+                                </div>
+                                <p class="text-gray-700">神奈川県小田原市本町一丁目7番50号</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 資金使途詳細 -->
+        <section class="mb-16">
+            <div class="section-card bg-white rounded-lg shadow-lg p-8">
+                <h2 class="text-3xl font-bold text-gray-800 mb-8 flex items-center">
+                    <i class="fas fa-chart-pie text-blue-500 mr-3"></i>
+                    資金使途詳細
+                </h2>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <div class="space-y-6">
+                            <div class="flex justify-between items-center p-4 bg-blue-50 rounded-lg">
+                                <div>
+                                    <h4 class="font-semibold text-gray-800">設備費・運搬費</h4>
+                                    <p class="text-sm text-gray-600">音響・照明機材、楽器運搬費等</p>
+                                </div>
+                                <div class="text-2xl font-bold text-blue-600">100,000円</div>
+                            </div>
+                            
+                            <div class="flex justify-between items-center p-4 bg-green-50 rounded-lg">
+                                <div>
+                                    <h4 class="font-semibold text-gray-800">楽譜購入費</h4>
+                                    <p class="text-sm text-gray-600">楽譜購入、プログラム印刷等</p>
+                                </div>
+                                <div class="text-2xl font-bold text-green-600">50,000円</div>
+                            </div>
+                            
+                            <div class="flex justify-between items-center p-4 bg-yellow-50 rounded-lg">
+                                <div>
+                                    <h4 class="font-semibold text-gray-800">リターン制作・発送費</h4>
+                                    <p class="text-sm text-gray-600">支援者60人分のリターン費用</p>
+                                </div>
+                                <div class="text-2xl font-bold text-yellow-600">20,000円</div>
+                            </div>
+                            
+                            <div class="flex justify-between items-center p-4 bg-purple-50 rounded-lg">
+                                <div>
+                                    <h4 class="font-semibold text-gray-800">その他費用</h4>
+                                    <p class="text-sm text-gray-600">著作権使用料、事務費等</p>
+                                </div>
+                                <div class="text-2xl font-bold text-purple-600">30,000円</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <canvas id="budgetChart" width="400" height="400"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 営利性排除リターン設計 -->
+        <section class="mb-16">
+            <div class="section-card bg-white rounded-lg shadow-lg p-8">
+                <h2 class="text-3xl font-bold text-gray-800 mb-8 flex items-center">
+                    <i class="fas fa-heart text-red-500 mr-3"></i>
+                    営利性排除リターン設計
+                </h2>
+                
+                <div class="mb-8">
+                    <div class="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-lg">
+                        <h3 class="text-xl font-semibold text-red-800 mb-3">営利性排除対応</h3>
+                        <p class="text-red-700">
+                            演奏会特別席、録音CD、演者との写真撮影等は全て除外し、純粋な応援グッズに限定
+                        </p>
+                    </div>
+                </div>
+
+                <h3 class="text-2xl font-semibold text-gray-700 mb-6">支援コース設計</h3>
+                
+                <div class="space-y-6">
+                    <!-- 純粋応援型寄付 -->
+                    <div class="bg-gradient-to-r from-blue-50 to-blue-100 p-6 rounded-lg">
+                        <h4 class="text-xl font-bold text-blue-800 mb-3">純粋応援型寄付（リターンなし）</h4>
+                        <p class="text-blue-700 mb-3">想定30人</p>
+                        <p class="text-blue-600">リターンなしの純粋な寄付として別コース設定。金額は1,000~10,000円で3,4パターン設定。</p>
+                    </div>
+
+                    <!-- リターンありコース -->
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="bg-white border-2 border-green-200 rounded-lg p-6 hover:border-green-400 transition-colors">
+                            <h4 class="text-xl font-bold text-green-800 mb-2">感謝コース</h4>
+                            <div class="text-3xl font-bold text-green-600 mb-4">2,000円</div>
+                            <p class="text-sm text-gray-600 mb-4">想定15人 × 200円/人</p>
+                            <ul class="text-sm space-y-2">
+                                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>お礼メッセージカード</li>
+                                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>演奏会プログラム（郵送）</li>
+                            </ul>
+                            <div class="mt-4 text-sm text-gray-500">制作費：3,000円</div>
+                        </div>
+
+                        <div class="bg-white border-2 border-yellow-200 rounded-lg p-6 hover:border-yellow-400 transition-colors">
+                            <h4 class="text-xl font-bold text-yellow-800 mb-2">応援コース</h4>
+                            <div class="text-3xl font-bold text-yellow-600 mb-4">5,000円</div>
+                            <p class="text-sm text-gray-600 mb-4">想定10人 × 400円/人</p>
+                            <ul class="text-sm space-y-2">
+                                <li class="flex items-center"><i class="fas fa-check text-yellow-500 mr-2"></i>感謝コースの全て</li>
+                                <li class="flex items-center"><i class="fas fa-check text-yellow-500 mr-2"></i>オリジナルクリアファイル</li>
+                                <li class="flex items-center"><i class="fas fa-check text-yellow-500 mr-2"></i>部員手作りしおり</li>
+                            </ul>
+                            <div class="mt-4 text-sm text-gray-500">制作費：4,000円</div>
+                        </div>
+
+                        <div class="bg-white border-2 border-purple-200 rounded-lg p-6 hover:border-purple-400 transition-colors">
+                            <h4 class="text-xl font-bold text-purple-800 mb-2">サポーターコース</h4>
+                            <div class="text-3xl font-bold text-purple-600 mb-4">10,000円</div>
+                            <p class="text-sm text-gray-600 mb-4">想定5人 × 800円/人</p>
+                            <ul class="text-sm space-y-2">
+                                <li class="flex items-center"><i class="fas fa-check text-purple-500 mr-2"></i>応援コースの全て</li>
+                                <li class="flex items-center"><i class="fas fa-check text-purple-500 mr-2"></i>校章入りタオル</li>
+                                <li class="flex items-center"><i class="fas fa-check text-purple-500 mr-2"></i>個別感謝メッセージ</li>
+                            </ul>
+                            <div class="mt-4 text-sm text-gray-500">制作費：4,000円</div>
+                        </div>
+                    </div>
+
+                    <!-- リターン費用合計 -->
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <h4 class="text-xl font-semibold text-gray-800 mb-4">リターン費用合計</h4>
+                        <div class="text-2xl font-bold text-gray-700 mb-4">総額：20,000円（リターンありコース30人分想定）</div>
+                        <ul class="space-y-2 text-gray-600">
+                            <li>• 感謝コース：3,000円（15人分）</li>
+                            <li>• 応援コース：4,000円（10人分）</li>
+                            <li>• サポーターコース：4,000円（5人分）</li>
+                            <li>• 純粋応援型寄付：リターン費用なし（30人分）</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 著作権使用料計算 -->
+        <section class="mb-16">
+            <div class="section-card bg-white rounded-lg shadow-lg p-8">
+                <h2 class="text-3xl font-bold text-gray-800 mb-8 flex items-center">
+                    <i class="fas fa-copyright text-orange-500 mr-3"></i>
+                    著作権使用料計算（JASRAC規定）
+                </h2>
+                
+                <div class="mb-6">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-4">演奏会条件</h3>
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <p><strong>演奏時間：</strong> 3時間</p>
+                        <p><strong>会場：</strong> 小田原三の丸ホール大ホール</p>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-blue-50 p-6 rounded-lg">
+                        <h4 class="text-lg font-semibold text-blue-800 mb-4">パターン1：公演全体計算</h4>
+                        <ul class="space-y-2 text-blue-700">
+                            <li>基本使用料（2時間まで）<br>1,105名 × 4円 = 4,420円</li>
+                            <li>延長料金（1時間分）<br>4,420円 × 50% = 2,210円</li>
+                            <li>小計（税抜）6,630円</li>
+                            <li class="font-bold">総額（消費税込）7,293円</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-green-50 p-6 rounded-lg border-2 border-green-300">
+                        <h4 class="text-lg font-semibold text-green-800 mb-4">パターン2：楽曲別計算 ★推奨</h4>
+                        <ul class="space-y-2 text-green-700">
+                            <li>定員区分：1,105名（1,000名超）</li>
+                            <li>1曲あたり使用料：400円（税抜）</li>
+                            <li>演奏楽曲数：10曲想定</li>
+                            <li>小計（税抜）：4,000円</li>
+                            <li class="font-bold">総額（消費税込）4,400円</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mt-6 bg-green-100 border-l-4 border-green-500 p-4 rounded-r-lg">
+                    <p class="text-green-800">
+                        <strong>推奨：</strong> パターン2（楽曲別計算）を採用し、4,400円の著作権使用料を予算計上。
+                    </p>
+                    <p class="text-green-700 mt-2">
+                        どちらの計算方法でも予算内（その他費用30,000円）に収まります。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 小田原三の丸ホール使用料 -->
+        <section class="mb-16">
+            <div class="section-card bg-white rounded-lg shadow-lg p-8">
+                <h2 class="text-3xl font-bold text-gray-800 mb-8 flex items-center">
+                    <i class="fas fa-building text-indigo-500 mr-3"></i>
+                    小田原三の丸ホール使用料
+                </h2>
+                
+                <div class="mb-8">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-4">大ホール利用料（1,105席）</h3>
+                    <div class="overflow-x-auto">
+                        <table class="w-full bg-white border border-gray-200 rounded-lg">
+                            <thead class="bg-gray-100">
+                                <tr>
+                                    <th class="px-4 py-3 text-left font-semibold text-gray-700">時間帯</th>
+                                    <th class="px-4 py-3 text-left font-semibold text-gray-700">平日</th>
+                                    <th class="px-4 py-3 text-left font-semibold text-gray-700">土日祝</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-200">
+                                <tr>
+                                    <td class="px-4 py-3">午前（9:00-12:00）</td>
+                                    <td class="px-4 py-3">28,600円</td>
+                                    <td class="px-4 py-3">33,400円</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-4 py-3">午後（13:00-17:00）</td>
+                                    <td class="px-4 py-3">41,900円</td>
+                                    <td class="px-4 py-3">49,000円</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-4 py-3">夜間（18:00-22:00）</td>
+                                    <td class="px-4 py-3">53,400円</td>
+                                    <td class="px-4 py-3">62,400円</td>
+                                </tr>
+                                <tr class="bg-yellow-50">
+                                    <td class="px-4 py-3 font-semibold">全日（9:00-22:00）</td>
+                                    <td class="px-4 py-3 font-semibold">123,900円</td>
+                                    <td class="px-4 py-3 font-semibold">144,800円</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="mb-8">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-4">楽屋利用料（A~F）</h3>
+                    <div class="overflow-x-auto">
+                        <table class="w-full bg-white border border-gray-200 rounded-lg">
+                            <thead class="bg-gray-100">
+                                <tr>
+                                    <th class="px-4 py-3 text-left font-semibold text-gray-700">楽屋</th>
+                                    <th class="px-4 py-3 text-left font-semibold text-gray-700">午前</th>
+                                    <th class="px-4 py-3 text-left font-semibold text-gray-700">午後</th>
+                                    <th class="px-4 py-3 text-left font-semibold text-gray-700">全日</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-200">
+                                <tr><td class="px-4 py-3">楽屋A</td><td class="px-4 py-3">1,000円</td><td class="px-4 py-3">1,300円</td><td class="px-4 py-3">3,600円</td></tr>
+                                <tr><td class="px-4 py-3">楽屋B</td><td class="px-4 py-3">800円</td><td class="px-4 py-3">1,100円</td><td class="px-4 py-3">3,000円</td></tr>
+                                <tr><td class="px-4 py-3">楽屋C</td><td class="px-4 py-3">700円</td><td class="px-4 py-3">900円</td><td class="px-4 py-3">2,500円</td></tr>
+                                <tr><td class="px-4 py-3">楽屋D</td><td class="px-4 py-3">1,200円</td><td class="px-4 py-3">1,600円</td><td class="px-4 py-3">4,400円</td></tr>
+                                <tr><td class="px-4 py-3">楽屋E</td><td class="px-4 py-3">1,600円</td><td class="px-4 py-3">2,100円</td><td class="px-4 py-3">5,800円</td></tr>
+                                <tr><td class="px-4 py-3">楽屋F</td><td class="px-4 py-3">1,500円</td><td class="px-4 py-3">2,000円</td><td class="px-4 py-3">5,500円</td></tr>
+                                <tr class="bg-yellow-50"><td class="px-4 py-3 font-semibold">楽屋A~F合計（全日）</td><td class="px-4 py-3">-</td><td class="px-4 py-3">-</td><td class="px-4 py-3 font-semibold">24,800円</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="bg-green-100 border-l-4 border-green-500 p-6 rounded-r-lg">
+                    <h4 class="text-lg font-semibold text-green-800 mb-4">減免制度適用</h4>
+                    <p class="text-green-700 mb-4">
+                        「市内の学校が当該学校の行事として文化事業で使用する場合」に該当するため、使用料が免除される予定です。
+                    </p>
+                    <ul class="space-y-2 text-green-700">
+                        <li>• 大ホール使用料：通常123,900円～144,800円 → <strong>0円</strong></li>
+                        <li>• 楽屋使用料：通常24,800円 → <strong>0円</strong></li>
+                        <li>• <strong>合計減免額：148,700円～169,600円</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- クラウドファンディングプラットフォーム比較 -->
+        <section class="mb-16">
+            <div class="section-card bg-white rounded-lg shadow-lg p-8">
+                <h2 class="text-3xl font-bold text-gray-800 mb-8 flex items-center">
+                    <i class="fas fa-chart-bar text-teal-500 mr-3"></i>
+                    クラウドファンディングプラットフォーム比較
+                </h2>
+                
+                <div class="overflow-x-auto">
+                    <table class="w-full bg-white border border-gray-200 rounded-lg">
+                        <thead class="bg-gray-100">
+                            <tr>
+                                <th class="px-4 py-3 text-left font-semibold text-gray-700">プラットフォーム</th>
+                                <th class="px-4 py-3 text-left font-semibold text-gray-700">手数料</th>
+                                <th class="px-4 py-3 text-left font-semibold text-gray-700">成功率</th>
+                                <th class="px-4 py-3 text-left font-semibold text-gray-700">ユーザー数</th>
+                                <th class="px-4 py-3 text-left font-semibold text-gray-700">おすすめ度</th>
+                                <th class="px-4 py-3 text-left font-semibold text-gray-700">特徴</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200">
+                            <tr class="bg-green-50">
+                                <td class="px-4 py-3 font-semibold">READYFOR</td>
+                                <td class="px-4 py-3">12-17%</td>
+                                <td class="px-4 py-3">75%</td>
+                                <td class="px-4 py-3">90万人</td>
+                                <td class="px-4 py-3">
+                                    <div class="flex">
+                                        <i class="fas fa-star text-yellow-400"></i>
+                                        <i class="fas fa-star text-yellow-400"></i>
+                                        <i class="fas fa-star text-yellow-400"></i>
+                                        <i class="fas fa-star text-yellow-400"></i>
+                                        <i class="fas fa-star text-yellow-400"></i>
+                                    </div>
+                                </td>
+                                <td class="px-4 py-3">教育・文化分野に強い、充実サポート</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 font-semibold">CAMPFIRE</td>
+                                <td class="px-4 py-3">10%</td>
+                                <td class="px-4 py-3">36%</td>
+                                <td class="px-4 py-3">590万人</td>
+                                <td class="px-4 py-3">
+                                    <div class="flex">
+                                        <i class="fas fa-star text-yellow-400"></i>
+                                        <i class="fas fa-star text-yellow-400"></i>
+                                        <i class="fas fa-star text-yellow-400"></i>
+                                        <i class="fas fa-star text-yellow-400"></i>
+                                        <i class="far fa-star text-gray-300"></i>
+                                    </div>
+                                </td>
+                                <td class="px-4 py-3">最大ユーザー数、幅広いジャンル</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 font-semibold">Makuake</td>
+                                <td class="px-4 py-3">20%</td>
+                                <td class="px-4 py-3">66%</td>
+                                <td class="px-4 py-3">130万人</td>
+                                <td class="px-4 py-3">
+                                    <div class="flex">
+                                        <i class="fas fa-star text-yellow-400"></i>
+                                        <i class="fas fa-star text-yellow-400"></i>
+                                        <i class="fas fa-star text-yellow-400"></i>
+                                        <i class="far fa-star text-gray-300"></i>
+                                        <i class="far fa-star text-gray-300"></i>
+                                    </div>
+                                </td>
+                                <td class="px-4 py-3">プロダクト・ガジェット系に強い</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 font-semibold">Good Morning</td>
+                                <td class="px-4 py-3">9%</td>
+                                <td class="px-4 py-3">61.8%</td>
+                                <td class="px-4 py-3">26万人</td>
+                                <td class="px-4 py-3">
+                                    <div class="flex">
+                                        <i class="fas fa-star text-yellow-400"></i>
+                                        <i class="fas fa-star text-yellow-400"></i>
+                                        <i class="fas fa-star text-yellow-400"></i>
+                                        <i class="fas fa-star text-yellow-400"></i>
+                                        <i class="far fa-star text-gray-300"></i>
+                                    </div>
+                                </td>
+                                <td class="px-4 py-3">社会貢献系、最安手数料</td>
+                            </tr>
+                            <tr>
+                                <td class="px-4 py-3 font-semibold">kibidango</td>
+                                <td class="px-4 py-3">10-14%</td>
+                                <td class="px-4 py-3">80%</td>
+                                <td class="px-4 py-3">非公開</td>
+                                <td class="px-4 py-3">
+                                    <div class="flex">
+                                        <i class="fas fa-star text-yellow-400"></i>
+                                        <i class="fas fa-star text-yellow-400"></i>
+                                        <i class="fas fa-star text-yellow-400"></i>
+                                        <i class="far fa-star text-gray-300"></i>
+                                        <i class="far fa-star text-gray-300"></i>
+                                    </div>
+                                </td>
+                                <td class="px-4 py-3">高成功率、楽天連携</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="mt-8 space-y-4">
+                    <h3 class="text-xl font-semibold text-gray-700">推奨プラットフォーム</h3>
+                    <div class="bg-green-50 p-4 rounded-lg">
+                        <p class="font-semibold text-green-800">1位：READYFOR</p>
+                        <p class="text-green-700">教育・文化分野での豊富な実績とフルサポートプランの充実</p>
+                    </div>
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <p class="font-semibold text-blue-800">2位：Good Morning</p>
+                        <p class="text-blue-700">社会貢献性の高いプロジェクトに適し、手数料が最安</p>
+                    </div>
+                    <div class="bg-yellow-50 p-4 rounded-lg">
+                        <p class="font-semibold text-yellow-800">3位：CAMPFIRE</p>
+                        <p class="text-yellow-700">最大ユーザー数でリーチ力が高い</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 法的遵守事項 -->
+        <section class="mb-16">
+            <div class="section-card bg-white rounded-lg shadow-lg p-8">
+                <h2 class="text-3xl font-bold text-gray-800 mb-8 flex items-center">
+                    <i class="fas fa-gavel text-red-500 mr-3"></i>
+                    法的遵守事項
+                </h2>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-700 mb-4">遵守事項</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                                <span>入場料完全無料での実施</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                                <span>営利性のあるリターンの完全排除</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                                <span>JASRAC著作権使用料の適正申請・支払い</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                                <span>高校の学校行事としての位置づけ</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                                <span>会場での募金活動禁止</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-700 mb-4">注意事項</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-exclamation-triangle text-yellow-500 mr-3 mt-1"></i>
+                                <span>演奏会特別席の提供は営利行為とみなされる可能性</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-exclamation-triangle text-yellow-500 mr-3 mt-1"></i>
+                                <span>録音・録画物の配布は著作隣接権の問題あり</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-exclamation-triangle text-yellow-500 mr-3 mt-1"></i>
+                                <span>演者との写真撮影権は需要・運営上の問題</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-exclamation-triangle text-yellow-500 mr-3 mt-1"></i>
+                                <span>リターンは純粋な応援グッズに限定</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-exclamation-triangle text-yellow-500 mr-3 mt-1"></i>
+                                <span>最終的な法的判断は専門家への相談推奨</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 実施スケジュール -->
+        <section class="mb-16">
+            <div class="section-card bg-white rounded-lg shadow-lg p-8">
+                <h2 class="text-3xl font-bold text-gray-800 mb-8 flex items-center">
+                    <i class="fas fa-calendar-alt text-purple-500 mr-3"></i>
+                    実施スケジュール
+                </h2>
+                
+                <div class="space-y-6">
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg">
+                        <h3 class="text-xl font-semibold text-blue-800 mb-3">1. 準備期間（3ヶ月前〜）</h3>
+                        <ul class="space-y-2 text-blue-700">
+                            <li>• プラン最終決定・関係者合意</li>
+                            <li>• クラウドファンディングページ企画・制作</li>
+                            <li>• リターン品の準備・調達</li>
+                            <li>• プロモーション戦略策定</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg">
+                        <h3 class="text-xl font-semibold text-green-800 mb-3">2. 募集期間（2ヶ月前〜）</h3>
+                        <ul class="space-y-2 text-green-700">
+                            <li>• クラウドファンディング開始（60日間）</li>
+                            <li>• SNS・メディアでの広報活動</li>
+                            <li>• 支援者への定期報告・情報発信</li>
+                            <li>• 必要に応じた戦略調整</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-yellow-50 border-l-4 border-yellow-500 p-6 rounded-r-lg">
+                        <h3 class="text-xl font-semibold text-yellow-800 mb-3">3. 演奏会準備期間（1ヶ月前）</h3>
+                        <ul class="space-y-2 text-yellow-700">
+                            <li>• 資金調達完了・最終収支確認</li>
+                            <li>• 会場・機材手配最終確認</li>
+                            <li>• JASRAC申請手続き完了</li>
+                            <li>• 外部指導者との最終調整</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-purple-50 border-l-4 border-purple-500 p-6 rounded-r-lg">
+                        <h3 class="text-xl font-semibold text-purple-800 mb-3">4. 演奏会実施・事後処理</h3>
+                        <ul class="space-y-2 text-purple-700">
+                            <li>• 演奏会実施・記録撮影</li>
+                            <li>• 収支報告書作成・公開</li>
+                            <li>• リターン発送・支援者への御礼</li>
+                            <li>• プロジェクト完了報告</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 期待される効果 -->
+        <section class="mb-16">
+            <div class="section-card bg-white rounded-lg shadow-lg p-8">
+                <h2 class="text-3xl font-bold text-gray-800 mb-8 flex items-center">
+                    <i class="fas fa-sparkles text-pink-500 mr-3"></i>
+                    期待される効果
+                </h2>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-700 mb-4 flex items-center">
+                            <i class="fas fa-cogs text-blue-500 mr-3"></i>
+                            運営面の効果
+                        </h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-arrow-right text-blue-500 mr-3 mt-1"></i>
+                                <span>法令遵守による安全な運営</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-arrow-right text-blue-500 mr-3 mt-1"></i>
+                                <span>透明性の高い資金運営</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-arrow-right text-blue-500 mr-3 mt-1"></i>
+                                <span>持続可能な活動基盤の構築</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-arrow-right text-blue-500 mr-3 mt-1"></i>
+                                <span>より多くの観客を収容可能（1,105名）</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-700 mb-4 flex items-center">
+                            <i class="fas fa-heart text-red-500 mr-3"></i>
+                            社会面の効果
+                        </h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-arrow-right text-red-500 mr-3 mt-1"></i>
+                                <span>地域コミュニティとの良好な関係</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-arrow-right text-red-500 mr-3 mt-1"></i>
+                                <span>純粋応援者の参加促進</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-arrow-right text-red-500 mr-3 mt-1"></i>
+                                <span>生徒の音楽活動の質向上</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-arrow-right text-red-500 mr-3 mt-1"></i>
+                                <span>地域文化活動の発展寄与</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 推奨事項 -->
+        <section class="mb-16">
+            <div class="section-card bg-white rounded-lg shadow-lg p-8">
+                <h2 class="text-3xl font-bold text-gray-800 mb-8 flex items-center">
+                    <i class="fas fa-lightbulb text-yellow-500 mr-3"></i>
+                    推奨事項
+                </h2>
+                
+                <div class="bg-gradient-to-r from-green-50 to-blue-50 p-6 rounded-lg mb-6">
+                    <p class="text-lg text-gray-700 mb-4">
+                        本企画書は著作権法等の法令に基づいて作成していますが、クラウドファンディングプラットフォームとしては<strong class="text-green-700">READYFOR</strong>を第一推奨とします。
+                    </p>
+                </div>
+
+                <h3 class="text-xl font-semibold text-gray-700 mb-4">READYFORの優位性</h3>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="space-y-3">
+                        <div class="flex items-start">
+                            <i class="fas fa-trophy text-yellow-500 mr-3 mt-1"></i>
+                            <span>教育・文化分野での豊富な成功実績</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-handshake text-blue-500 mr-3 mt-1"></i>
+                            <span>フルサポートプランによる手厚いサポート</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-chart-line text-green-500 mr-3 mt-1"></i>
+                            <span>高い成功率（75%）</span>
+                        </div>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="flex items-start">
+                            <i class="fas fa-shield-alt text-purple-500 mr-3 mt-1"></i>
+                            <span>社会的信頼度の高さ</span>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-bullseye text-red-500 mr-3 mt-1"></i>
+                            <span>小田原高校吹奏楽部のプロジェクトに最適</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-8 bg-yellow-50 border-l-4 border-yellow-500 p-4 rounded-r-lg">
+                    <p class="text-yellow-800 flex items-start">
+                        <i class="fas fa-exclamation-triangle mr-3 mt-1"></i>
+                        <span><strong>注意:</strong> 最終的な法的判断については専門家にご相談することをお勧めします。</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-gray-300">
+                © 2024 小田原高校吹奏楽部 クラウドファンディング企画書
+            </p>
+            <p class="text-gray-400 mt-2 text-sm">
+                音楽を通じて、地域に笑顔と感動を届けます
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // 予算内訳チャート
+        const ctx = document.getElementById('budgetChart').getContext('2d');
+        const budgetChart = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ['設備費・運搬費', '楽譜購入費', 'リターン制作・発送費', 'その他費用'],
+                datasets: [{
+                    data: [100000, 50000, 20000, 30000],
+                    backgroundColor: [
+                        '#3B82F6',
+                        '#10B981',
+                        '#F59E0B',
+                        '#8B5CF6'
+                    ],
+                    borderWidth: 2,
+                    borderColor: '#fff'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            padding: 20,
+                            usePointStyle: true
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return context.label + ': ' + context.parsed.toLocaleString() + '円';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // スムーススクロール
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // 数値カウントアップアニメーション
+        function animateValue(element, start, end, duration) {
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                element.innerHTML = Math.floor(progress * (end - start) + start).toLocaleString();
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                }
+            };
+            window.requestAnimationFrame(step);
+        }
+
+        // ページ読み込み時のアニメーション
+        window.addEventListener('load', function() {
+            // 目標金額のカウントアップ
+            const targetAmount = document.querySelector('.highlight-number');
+            if (targetAmount && targetAmount.textContent.includes('200,000')) {
+                animateValue(targetAmount, 0, 200000, 2000);
+            }
+        });
+    </script>
+</body>
+</html>
+    <script id="html_badge_script1">
+        window.__genspark_remove_badge_link = "https://www.genspark.ai/api/html_badge/" +
+            "remove_badge?token=To%2FBnjzloZ3UfQdcSaYfDiWKqKYMek%2B5xVsNAf7JmOUSelMRzCTOwlATnyJCONEbir6xbPmH41Fu1xndGmb5I0WyPCmsFFdd66jgMNEu4D%2BrBHn0QgeD8A8xcXa3lb8%2FuTmLO9OxrqzHaLn6ucN%2FFRdBRdDqPWM1T7XGFTGvwwW0sR7wNc%2Bnc4X17cQrBTfLBRl7jRG4UM%2Fiy3STBZW2Y53XOSpvjBlwXarHKL1b0U99JZNzEKdYVfnF0ZhONXE2afv4C36tSn%2BIhDXl6Hh0gYPT14tsovvIw2FtSmYj3%2Bh%2BhCmDP4qmEW88ri1JAKXYntAFcIJTF02O3oORzkXbdGNxY1d9OvQcA8qdADVawjYmx9dTYF%2F2UjG5s1VnNBBZSbASkEVYT3RbcCTgXl8hNf2jS3nb2ulnAU90grTIFj9v9GcE1761GAx%2F5azUY7Jdxtj96UF0QnqNtwuaIr1i3kiolDV1PMlq9Hu1uEjiVUW5GYKMkV2ZplOWTdc%2BM3VqtxJ7CmnX8SsxSXpzRGO7sqky8uJgpfxh7v01Dmu5MVA%3D";
+        window.__genspark_locale = "ja-JP";
+        window.__genspark_token = "To/BnjzloZ3UfQdcSaYfDiWKqKYMek+5xVsNAf7JmOUSelMRzCTOwlATnyJCONEbir6xbPmH41Fu1xndGmb5I0WyPCmsFFdd66jgMNEu4D+rBHn0QgeD8A8xcXa3lb8/uTmLO9OxrqzHaLn6ucN/FRdBRdDqPWM1T7XGFTGvwwW0sR7wNc+nc4X17cQrBTfLBRl7jRG4UM/iy3STBZW2Y53XOSpvjBlwXarHKL1b0U99JZNzEKdYVfnF0ZhONXE2afv4C36tSn+IhDXl6Hh0gYPT14tsovvIw2FtSmYj3+h+hCmDP4qmEW88ri1JAKXYntAFcIJTF02O3oORzkXbdGNxY1d9OvQcA8qdADVawjYmx9dTYF/2UjG5s1VnNBBZSbASkEVYT3RbcCTgXl8hNf2jS3nb2ulnAU90grTIFj9v9GcE1761GAx/5azUY7Jdxtj96UF0QnqNtwuaIr1i3kiolDV1PMlq9Hu1uEjiVUW5GYKMkV2ZplOWTdc+M3VqtxJ7CmnX8SsxSXpzRGO7sqky8uJgpfxh7v01Dmu5MVA=";
+    </script>
+    
+        <script id="html_badge_script2" src="https://www.genspark.ai/html_badge.js"></script>
+        
+    <script id="html_notice_dialog_script" src="https://www.genspark.ai/notice_dialog.js"></script>
+    
+=======
 <!DOCTYPE html PUBLIC>
 <html>
 <head>
@@ -593,3 +1441,4 @@
 <p class="p42"><span class="s32">Genspark で作成</span><span class="s33"><span class="Apple-converted-space"> </span></span></p>
 </body>
 </html>
+>>>>>>> 45e5ca3fd28f8f251cb4ec1e104eee167be63157
